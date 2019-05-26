@@ -15,6 +15,14 @@ public class Utilisateur implements Serializable {
     private String username;
     private String password;
 
+    public Utilisateur(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
+
+    public Utilisateur() {
+    }
+
     public Long getId() {
         return id;
     }

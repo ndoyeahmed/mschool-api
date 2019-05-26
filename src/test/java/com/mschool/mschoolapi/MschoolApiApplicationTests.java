@@ -11,6 +11,7 @@ public class MschoolApiApplicationTests {
 
     @Test
     public void contextLoads() {
+        assert true;
     }
 
 }
