@@ -23,7 +23,7 @@ public class UtilisateurRepositoryIntegrationTest {
     private UtilisateurRepository utilisateurRepository;
 
     @Test
-    public void whenFindByUsernameAndPassword_thenReturnUtilisateur() {
+    public void whenFindByUsernameAndPasswordThenReturnUtilisateur() {
         // given
         Utilisateur mouhamed = new Utilisateur("mouhamed", "passer@123");
         entityManager.persist(mouhamed);
